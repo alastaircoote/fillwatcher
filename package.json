@@ -1,0 +1,21 @@
+{
+  "name": "fillwatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/fill-watcher.js",
+  "scripts": {
+    "test": "mocha _test_bootstrap.js test",
+    "test-watch": "mocha _test_bootstrap.js test --watch",
+    "prepublish": "babel src --out-dir lib"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.10.2"
+  }
+}
